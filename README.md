@@ -2,9 +2,7 @@
 
 ![Videos](videos.gif)
 
-### Information
-
-This repository contains the instructions on how to reproduce the experiments from the paper "Neuroevolution of Recurrent Architectures on Control Tasks".
+This repository contains the instructions on how to reproduce the experiments from the paper ["Neuroevolution of Recurrent Architectures on Control Tasks"](https://openreview.net/pdf?id=rhMG7QDWIZq) published at GECCO 2022 & the ALOE ICLR 2022 Workshop.
 
 The code itself is located in a larger library called [Nevo](https://github.com/MaximilienLC/nevo).
 
@@ -23,7 +21,7 @@ export LD_LIBRARY_PATH=\$MUJOCO_PATH:\$LD_LIBRARY_PATH" >> ~/.bashrc
 source ~/.bashrc
 
 # Library & Dependencies
-git clone https://github.com/MaximilienLC/nevo_cpu && cd nevo_cpu/
+git clone https://github.com/MaximilienLC/nevo && cd nevo/
 virtualenv venv && source venv/bin/activate && pip3 install -r requirements.txt
 ```
 
